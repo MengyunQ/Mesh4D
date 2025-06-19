@@ -8,10 +8,18 @@
 
 **Mesh4D** is a motion-aware deep generative model for reconstructing high-resolution, temporally smooth 3D+t cardiac meshes directly from multi-view cardiac MRI. The method integrates a multi-view cross-attention encoder, transformer-based variational latent dynamics, and a continuous deformation decoder for anatomically consistent and physiologically plausible 4D heart reconstruction.
 
-<p align="center">
-  <img src="assets/mri_input.png" alt="Mesh4D Static Illustration" width="340"/>
-  <img src="assets/mesh4d_teaser.gif" alt="Mesh4D Teaser Demo" width="340"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/mri_input.png" width="340"/><br/>
+      <em>Multi-view CMR inputs</em>
+    </td>
+    <td align="center">
+      <img src="assets/mesh4d_teaser.gif" width="340"/><br/>
+      <em>Mesh4D reconstructed mesh</em>
+    </td>
+  </tr>
+</table>
 
 
 ## Features
